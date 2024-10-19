@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GST</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster&family=M+PLUS+Rounded+1c:wght@800&family=Montserrat:wght@800&family=Permanent+Marker&family=Poppins:wght@300;600;700&family=Rubik:wght@500&family=Space+Grotesk:wght@300&display=swap" rel="stylesheet">
+<!--Fonts End-->
+<!--icons-->
+</head>
+<body>
+
+    <div class="navbar">
+        <p class="logo" contenteditable="true">LOGO</p>
+        <a href="#d" class="func" style="--color:#6a6acb">Registration</a>
+        <a href="" class="func"  style="--color:crimson">Filling</a>
+        <a href="" class="func"  style="--color:coral">Amendment</a>
+        <a href="" class="func"  style="--color:lightblue">Contact Us</a>
+    </div>
+    <div id="intro">
+        <div class="panel"></div>
+    <div id="mini1"></div>
+    <div id="mini2"></div>
+    <div id="mini3"></div>
+
+    <p class="heading">TAX Registration</p>
+    <div class="con">
+        <p class="sub" style="--color:chartreuse;--i:1s">USER friendly</p>
+        <p class="sub" style="--color:orange;--i:3s">Transparent Pricing</p>
+        <p class="sub" style="--color:crimson;--i:5s">Excellent Customer Support</p>
+    
+    </div>
+    
+    <div class="button"><a href="#d" style="color: white;text-decoration: none;width: 100%;height: 100%;display: inline-block;">Fill Form</a></div>
+    </div>
+    <div id="fom">
+        <div class="de1">
+            <input type="text" id="k" class="name" placeholder="Enter Street" required></input>
+            <input type="text" class="name" placeholder="Enter Address" required></input>
+            <input type="text" class="name" placeholder="Enter city" required></input>
+            <input type="number" class="name" placeholder="Enter pin code" required max="999999" min="10000"></input>
+            <div class="button"id="dse" style="background:lightgreen;position: relative;margin: 12vh;margin-left: 27vh;color:black;width: 40%;">Pay Rs.440</div>
+        </div>
+<div class="de" id="d">
+     <input type="text" id="k" class="name" placeholder="Enter Full Name" required></input>
+     <input type="email" class="name" placeholder="Enter email" required></input>
+     <input type="tel" class="name" placeholder="Enter Phone no." required></input>
+     <input type="text" class="name" placeholder="Name of Firm" required></input>
+     <select style="display: block;">
+        <option value="null">Type of Business Entity</option>
+        <option value="">Proprietor</option>
+        <option value="">Partnership Firm</option>
+        <option value="">Private Limited Company</option>
+        <option value="">Public Limited Company</option>
+        <option value="">Society/Trust</option>
+        <option value="">Others</option>
+     </select>
+     <div class="button"id="ne" style="background:lightgreen;position: relative;margin: 12vh;margin-left: 17vh;color:coral">Proceed to next step</div>
+</div>
+    </div>
+    <div id="contact">
+        <input type="email" name="s" id="eme" placeholder="Subscribe to our Newsletter(Email here)" required></input>
+        <div class="send" onclick="document.querySelector('.send').innerHTML='Submitted'">Subscribe
+            </div>
+    
+       
+        <div class="contact1">
+            <p class="idea">Have an Idea? Maybe talk to us ? </p>
+            <div class="em">gst@gmail.com</div><div class="ph">+91 8327623987</div>
+        
+        </div>
+        <div id="payment">
+            <input type="text" class="amount" placeholder="Enter Amount"></input>
+            <input type="text" class="credit" placeholder="Enter Credit Card no"></input>
+            <textarea name="" id="description1" placeholder="Enter description" rows="3"></textarea>
+            <div class="send" onclick="document.querySelector('#payment .send').innerHTML='DONATED'">DONATE
+            </div>
+    
+        </div>
+    </div>
+</body>
+<script src="./script.js"></script>
+</html>
